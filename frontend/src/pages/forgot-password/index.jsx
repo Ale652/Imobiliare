@@ -46,7 +46,7 @@ function ForgotPassword() {
                         </SubmitButtonWrapper>
                         <LinkDividerWrapper>
                             <LinkDivider>
-                                <LoginLink to="/login">Ai deja cont?</LoginLink>   / 
+                                <LoginLink to="/login">Ai deja cont??</LoginLink>   / 
                                 <RegisterLink to="/register"> Nu ai cont?</RegisterLink>
                             </LinkDivider>
                     </LinkDividerWrapper>
