@@ -1,0 +1,13 @@
+[
+    {
+       "id": 3101,
+       "img": "https://statics.storia.ro/fp_statics/images/homepage/linkingSection/flatsOnSell.webp",
+       "type": "Apartamente",
+       "description": "Descoperă apartamente noi, moderne, parte din ansambluri cu dotări excelente."
+    },
+    {
+        "id": 3102,
+        "img": "https://statics.storia.ro/fp_statics/images/homepage/linkingSection/housesOnSell.webp",
+        "type": "Case"
+     }
+]

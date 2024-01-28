@@ -1,0 +1,22 @@
+[
+    {
+       "id": 1101,
+       "img": "https://statics.storia.ro/fp_statics/images/homepage/linkingSection/flatsOnSell.webp",
+       "type": "Apartamente"
+    },
+    {
+        "id": 1102,
+        "img": "https://statics.storia.ro/fp_statics/images/homepage/linkingSection/housesOnSell.webp",
+        "type": "Case"
+     },
+     {
+        "id": 1103,
+        "img": "https://statics.storia.ro/fp_statics/images/homepage/linkingSection/terrainOnSell.webp",
+        "type": "Terenuri"
+     },
+     {
+        "id": 1104,
+        "img": "https://statics.storia.ro/fp_statics/images/homepage/linkingSection/commercialPropertiesOnSell.webp",
+        "type": "Spații comerciale"
+     }
+]

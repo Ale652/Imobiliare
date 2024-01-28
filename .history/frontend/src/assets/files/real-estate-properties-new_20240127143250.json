@@ -1,0 +1,14 @@
+[
+    {
+       "id": 3101,
+       "img": "House",
+       "type": "Apartamente",
+       "description": "Descoperă apartamente noi, moderne, parte din ansambluri cu dotări excelente."
+    },
+    {
+        "id": 3102,
+        "img": "Apartments",
+        "type": "Case",
+        "description": "Descoperă casele nou construite, cu compartimentări spațioase și finisaje moderne."
+     }
+]

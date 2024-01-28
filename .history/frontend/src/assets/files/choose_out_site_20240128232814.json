@@ -1,0 +1,23 @@
+[
+    {
+       "id": 4101,
+       "img": "https://statics.storia.ro/fp_statics/images/homepage/usabilitySection/buy.webp",
+       "type": "Cumpara",
+       "description": "Explorează între zecile de mii de oferte și simplifică-ți căutarea cu ajutorul celor peste 50 de filtre. Poți cumpăra apartamente, case, terenuri, spații comerciale și depozite.",
+       "buttonText": "Explorează ofertele"
+    },
+    {
+        "id": 4102,
+        "img": "https://statics.storia.ro/fp_statics/images/homepage/usabilitySection/sell.webp",
+        "type": "Vinde",
+        "description": "Avem milioane de vizite în fiecare lună și îți oferim acces la cea mai mare audiență pentru proprietățile pe care vrei să le vinzi, fie că sunt apartamente, case, birouri, hale sau depozite.",
+        "buttonText": "Publică un anunț"
+     },
+     {
+        "id": 4103,
+        "img": "https://statics.storia.ro/fp_statics/images/homepage/usabilitySection/rent.webp",
+        "type": "Inchiriaza",
+        "description": "Zeci de mii de anunțuri de închiriere te așteaptă pe ResidenceHub. Poți închiria garsoniere, apartamente, case, spații de birouri, hale și depozite.",
+        "buttonText": "Închiriază o proprietate"
+     }
+]

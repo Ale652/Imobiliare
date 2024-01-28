@@ -1,4 +1,5 @@
 import { InputField } from "../register/styles";
+import { useState } from "react";
 import {
   FieldsContainer,
   ForgotPasswordLink,
@@ -13,14 +14,33 @@ import {
   SubmitButtonWrapper,
   Title,
 } from "./styles";
+import { emailValidation, passwordValidation, confirmPasswordValidation } from "../../utils/validations-utils";
+
 
 function Login() {
+
+  const formData = {
+    email: "",
+    password: ""
+  }
+
+  const[errors , setErrors] = useState({
+    emailErrorText: "",
+    passwordErrorText: ""
+  })
+
   const handleChangeEmail = (event) => {
-    console.log(event.target.value);
+    setErrors((currentErrors) => ({
+      ...currentErrors,
+      emailErrorText: emailValidation(event.target.value),
+    }));
   };
 
   const handleChangePassword = (event) => {
-    console.log(event.target.value);
+    setErrors((currentErrors) => ({
+      ...currentErrors,
+      passwordErrorText: passwordValidation(event.target.value),
+    }));
   };
 
   return (
@@ -33,20 +53,20 @@ function Login() {
               variant="standard"
               name="email"
               type="email"
-              // error={errors.lastNameErrorText.length !== 0}
+              error={errors.emailErrorText.length !== 0}
               onChange={handleChangeEmail}
               label="Email"
-              // helperText={errors.lastNameErrorText}
+              helperText={errors.emailErrorText}
             />
 
             <InputField
               variant="standard"
               name="password"
               type="password"
-              // error={errors.lastNameErrorText.length !== 0}
+              error={errors.passwordErrorText.length !== 0}
               onChange={handleChangePassword}
               label="Parola"
-              // helperText={errors.lastNameErrorText}
+              helperText={errors.passwordErrorText}
             />
           </FieldsContainer>
           <ForgotPasswordLinkWrapper>

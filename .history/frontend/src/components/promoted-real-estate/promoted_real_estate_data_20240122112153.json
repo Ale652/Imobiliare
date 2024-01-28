@@ -1,0 +1,15 @@
+[
+    {
+       "id":1,
+       "price": 44570,
+       "img": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6ImthOTQzcHVpMGtxbDEtQVJPIiwidyI6W3siZm4iOiIzdzU2NnhnanB5MnAxLUFSTyIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.YgBWkxlcz_Xy-jNRsor6eBUVEMSpjbBjcqNYXbJ--tA/image;s=655x491;q=80",
+       "location":"Ilfov (judet), Popesti-Leordeni"
+    },
+    {
+        "id":2,
+        "price": 1,
+        "img": "https://ireland.apollo.olxcdn.com/v1/files/eyJmbiI6IjBncGoyZTk5ZjV1czItQVJPIiwidyI6W3siZm4iOiIzdzU2NnhnanB5MnAxLUFSTyIsInMiOiIxNCIsInAiOiIxMCwtMTAiLCJhIjoiMCJ9XX0.wH9HOceR2tQyxfCmxFDaNRNEkVzCym3wEEdWuKmDmGM/image;s=655x491;q=80",
+        "location":"Ilfov (judet), Bragadiru"
+     }
+
+ ]

@@ -13,7 +13,7 @@ import {
     SubmitButtonWrapper,
     SubmitButton
   } from "./styles";
-import { emailValidation } from "../register/utils";
+import { emailValidation } from "../../utils/validations-utils";
 
 
 function ForgotPassword() {
@@ -46,8 +46,7 @@ function ForgotPassword() {
                         </SubmitButtonWrapper>
                         <LinkDividerWrapper>
                             <LinkDivider>
-                                <LoginLink to="/login">Ai deja cont?</LoginLink>   / 
-                                <RegisterLink to="/register"> Nu ai cont?</RegisterLink>
+                                <LoginLink to="/login">Stii parola ?</LoginLink>
                             </LinkDivider>
                     </LinkDividerWrapper>
                     </Form>
